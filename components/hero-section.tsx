@@ -59,7 +59,7 @@ export function HeroSection() {
   const handleDownload = () => {
     console.log("sdsds");
     const link = document.createElement("a");
-    link.href = "/resume.pdf"; // Path relative to the public folder
+    link.href = "/Vishal-dharam.pdf"; // Path relative to the public folder
     link.download = "Vishal_Dharam_Resume.pdf"; // Suggested download filename
     document.body.appendChild(link);
     link.click();
